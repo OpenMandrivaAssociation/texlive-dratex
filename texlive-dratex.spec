@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/dratex
+# catalog-date 2008-09-18 22:51:09 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-dratex
 Version:	20080918
 Release:	1
@@ -41,6 +47,7 @@ drawing package written entirely in TeX.
 %{_texmfdistdir}/tex/generic/dratex/wotree.sty
 %doc %{_texmfdistdir}/doc/generic/dratex/Examples.tex
 %doc %{_texmfdistdir}/doc/generic/dratex/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ drawing package written entirely in TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
