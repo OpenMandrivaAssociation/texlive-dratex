@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-dratex
 Version:	20080918
-Release:	9
+Release:	10
 Summary:	General drawing macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/dratex
