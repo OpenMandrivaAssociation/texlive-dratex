@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-dratex
-Version:	20080918
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	General drawing macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/dratex
